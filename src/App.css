@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+  display:flex;
+  background-color: #282c34;
+  color:rgb(0, 0, 0);
+  position:absolute;
+  top:0;bottom:0;right:0;left:0;
+}
+
+.chatbox {
+  flex:1;
+  background-color: #ffffff;
+  position: relative;
+  resize: none;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.chat-input-holder {
+  position: absolute;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 73%;
+  width: 100%;
+  resize: none;
+}
+
+.chat-input-class-area{
+  background-color: rgb(255, 255, 255);
+  width: 70%;
+  border: none;
+  border-radius: 5px;
+  margin: 12px;
+  padding: 12px;
+  outline:none;
+  box-shadow: 0 0 4px 0 hsl(199, 77%, 74%);
+  resize: none;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.Logo {
+  background-image: url(./logo.svg);
+} 
+.App-link {
+  color: #61dafb;
+}
+
+.chat-message{
+  padding: 24px;
+
+}
+
+.ai-message{
+  padding: 12px;
+  float: left;
+  padding-right: 100px;
+  max-width: 300px;
+  margin-left: auto;
+}
+
+.ai-websites{
+  padding: 12px;
+  float: right;
+  padding-left: 100px;
+  max-width: 300px;
+  margin-right: auto;
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
